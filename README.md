@@ -50,7 +50,7 @@ CSS Preprocessing takes written code (LESS, SASS, etc) and compiles that code in
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-One of my favorite concepts in preprocessing is nesting.  It makes it a little be easier to write CSS and to remember what element I'm specifically trying to call.  Another I haven't gotten to use yet is the "@arguments" and "@rest" keyword when passing parameters to mixins. One concept that gives me a little trouble is the order of "@imports" when using multiple stylesheets and importing them in the index.less file.
+One of my favorite concepts in preprocessing is nesting.  It makes it a little be easier to write CSS and to remember what element I'm specifically trying to call.  Another that I haven't gotten to use yet is the "@arguments" and "@rest" keyword when passing parameters to mixins. One concept that gives me a little trouble is the order of "@imports" when using multiple stylesheets and importing them in the index.less file.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

@@ -58,6 +58,10 @@
       }
 
       .btn {
+        .btn-style(@btn-bg-color; @btn-font-size);
+        &:hover {
+          .btn-style-hover(@porcelain; @btn-font-size);
+        }
       }
     }
 
