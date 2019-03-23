@@ -42,7 +42,7 @@ Mobile-first uses min-width media queries. It means you start out building for m
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
-It helps with calculating/converting px units to rem units.  rem units base their value from the root element which is html.  62.5% of browser default font-size (usually 16px) equals 10px.  After setting the html to that value, 1.6rem = 16px.
+It helps with calculating/converting px units to rem units.  rem units base their value from the root element which is html.  62.5% of browser default font-size (usually 16px) equals 10px.  After setting the html element to that value, 1.6rem = 16px.
 
 4. How would you describe preprocessing to someone new to CSS?
 
