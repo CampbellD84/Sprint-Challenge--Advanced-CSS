@@ -1,1 +1,91 @@
 // Mixins Here
+.nav-flex(@justify; @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+    flex-wrap: wrap;
+}
+
+.nav-anchors() {
+        text-decoration: none;
+        font-size: 1.8rem;
+        margin: 0  2.5rem 1.5rem 2.5rem;
+        color: @nav-font;
+        font-weight: bold;
+}
+
+.header-img() {
+    border-radius: 0.5rem;
+}
+
+.btn-style(@bg-color; @font-sz) {
+    border-radius: 0.5rem;
+    background-color: @bg-color;
+    color: @porcelain;
+    border: 0;
+    font-size: @font-sz;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem;
+    width: 30%;
+    height: 3.5rem;
+}
+
+.btn-style-hover(@bg-color; @font-sz) {
+    border-radius: 0.5rem;
+    border: 0.1rem solid @btn-bg-color;
+    background-color: @bg-color;
+    color: @btn-bg-color;
+    font-size: @font-sz;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem;
+    width: 30%;
+    height: 3.5rem;
+}
+
+.mobile-btn-style(@bg-color; @font-sz; @mobile-width) {
+    border-radius: 0.5rem;
+    background-color: @bg-color;
+    color: @porcelain;
+    border: 0;
+    font-size: @font-sz;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem;
+    width: @mobile-width;
+    height: 5rem;
+}
+
+.mobile-btn-style-hover(@bg-color; @font-sz;  @mobile-width) {
+    border-radius: 0.5rem;
+    border: 0.1rem solid @btn-bg-color;
+    background-color: @bg-color;
+    color: @btn-bg-color;
+    font-size: @font-sz;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem;
+    width: @mobile-width;
+    height: 5rem;
+}
+
+.hide-img() {
+    display: none;
+}
